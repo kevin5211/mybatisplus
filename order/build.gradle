@@ -1,0 +1,11 @@
+dependencies {
+    compile group: 'cn.easyproject', name: 'orai18n', version: '12.1.0.2.0'
+    compile group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.3.1.tmp'
+    compile('org.springframework.boot:spring-boot-starter')
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    compileOnly 'org.projectlombok:lombok'
+    runtimeOnly 'com.oracle.ojdbc:ojdbc8'
+    annotationProcessor 'org.projectlombok:lombok'
+}

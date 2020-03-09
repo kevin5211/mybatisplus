@@ -1,0 +1,9 @@
+server.port: 8081
+server.servlet.context-path: /order
+
+spring:
+  datasource:
+    driverClassName: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@192.168.89.151:1521/orcl.oracle.com
+    username: BASE
+    password: base

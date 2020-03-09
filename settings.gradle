@@ -1,0 +1,4 @@
+rootProject.name = 'mybatisplus'
+
+include(":order")
+project(":order").projectDir = "${rootDir}/order" as File
